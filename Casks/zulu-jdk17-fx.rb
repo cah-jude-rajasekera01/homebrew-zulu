@@ -1,4 +1,4 @@
-cask 'zulu-jdk17' do
+cask 'zulu-jdk17-fx' do
 
   if Hardware::CPU.intel?
     version '17.38.21,17.0.5'
